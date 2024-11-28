@@ -1,45 +1,38 @@
-# 👋 Ethical Hacking for Professionals (EHP) with AI
+# Ethical Hacking for Professionals (EHP) with AI
 
-**Welcome to the documentation of the “Ethical Hacking for Professionals (EHP)” course, a comprehensive guide to ethical hacking and cybersecurity!**
+#### **Welcome to the documentation of the “Ethical Hacking for Professionals (EHP)” course, a comprehensive guide to ethical hacking and cyber security!**
 
-This course, organized by **Byte Capsule**, is designed to equip you with advanced skills in penetration testing, vulnerability assessment, and ethical hacking. Delivered entirely in Bangla, this course is a practical, hands-on journey into the world of cybersecurity, led by **Sakib Haque Zisan**—a seasoned Cybersecurity Researcher, Bug Hunter, and Mentor.
+This course, organized by **Byte Capsule**, is designed to equip you with advanced skills in penetration testing, vulnerability assessment, and ethical hacking. Delivered entirely in Bangla, this course is a practical, hands-on journey into the world of cyber security, led by **Sakib Haque Zisan**—a seasoned Cyber security Researcher, Bug Hunter, and Mentor.
 
-## Overview
+## About the Course
 
-Here are a couple of example overviews from products with really great docs:
+The EHP course takes a step-by-step approach, covering fundamental concepts to advanced techniques in ethical hacking. Over **25 weeks**, participants will build a solid foundation in cyber security tools, methodologies, and best practices, culminating in practical applications like web vulnerability testing, Active Directory attacks, and AI-powered security strategies.
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
+## Why This Documentation?
 
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
+This GitBook serves as a structured, easy-to-navigate companion to the course. It provides a detailed overview of the course contents, week-by-week breakdowns, practical tips, and additional resources to enhance your learning experience.
 
-## Quick links
+## Key Features of the Course
 
-{% content-ref url="overview/what-we-do.md" %}
-[what-we-do.md](overview/what-we-do.md)
-{% endcontent-ref %}
+* **Hands-On Learning**: Each topic is designed with practical exercises and labs.
+* **Bangla Instruction**: Simplifies complex topics for native Bangla speakers.
+* **Real-World Relevance**: Focuses on bug hunting, penetration testing, and defensive strategies.
+* **Comprehensive Curriculum**: Spanning from OS fundamentals to advanced topics like Active Directory attacks and AI-powered hacking.
 
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
-{% endcontent-ref %}
+## Who Should Use This Documentation?
 
-## Get Started
+* **Students of the EHP Course**: To revisit and reinforce the learning experience.
+* **Aspiring Cyber security Professionals**: As a guide for self-learning and skill-building.
+* **Organizations and Teams**: As a reference for building secure systems and networks.
 
-We've put together some helpful guides for you to get setup with our product quickly and easily.
+## Course Instructor
 
-{% content-ref url="fundamentals/getting-set-up/" %}
-[getting-set-up](fundamentals/getting-set-up/)
-{% endcontent-ref %}
+**Sakib Haque Zisan**
 
-{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
-{% endcontent-ref %}
+* Cyber Security Researcher
+* Bug Hunter
+* CTF Player
+* Mentor
+* Chief of Team - _Bengal Black Diamond_, Gray Hat Hacker's Community
 
-{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
-[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
-{% endcontent-ref %}
+This GitBook aims to document the EHP journey, so learners can consolidate their knowledge, access course material quickly, and have a go-to guide for reviewing key concepts.

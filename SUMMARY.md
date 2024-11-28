@@ -1,24 +1,16 @@
 # Table of contents
 
-* [👋 Ethical Hacking for Professionals (EHP) with AI](README.md)
+* [Ethical Hacking for Professionals (EHP) with AI](README.md)
 
-## Overview
+## Introduction
 
-* [💡 What we do](overview/what-we-do.md)
-* [✨ Our Features](overview/our-features.md)
+* [Introduction](introduction/introduction.md)
+* [How to maintain Classes](introduction/how-to-maintain-classes.md)
 
-## Product Guides
+## Setting up our Lab
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
+* [🚧 Installation Guideline of Linux](setting-up-our-lab/installation-guideline-of-linux.md)
 
-## Fundamentals
+## Os Fundamentals
 
-* [🛠️ Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
-
-## Use Cases
-
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥️ For Developers](use-cases/for-developers.md)
+* [Introduction to Linux](os-fundamentals/introduction-to-linux.md)
