@@ -3,7 +3,7 @@
 1. **How can we clear the current terminal?** (multiple choice)
    * [ ] By Pressing Ctrl+c
    * [x] By Pressing Ctrl+l
-   * [ ] By Typing the Command 'clear'
+   * [x] By Typing the Command 'clear'
    * [ ] By Typing the Command 'cls'
 2. **Which command can we use to achieve the permissions of `rwx- -x- -x`?**
    * [ ] chmod 777 file.txt
