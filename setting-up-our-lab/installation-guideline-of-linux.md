@@ -1,4 +1,4 @@
-# 🚧 Installation Guideline of Linux
+# Installation Guideline of Linux
 
 ## You can Setup the Lab in your PC (Desktop / Laptop). Instructions for PC User:
 

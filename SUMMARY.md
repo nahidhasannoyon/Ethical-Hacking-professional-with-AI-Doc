@@ -9,7 +9,7 @@
 
 ## Setting up our Lab
 
-* [🚧 Installation Guideline of Linux](setting-up-our-lab/installation-guideline-of-linux.md)
+* [Installation Guideline of Linux](setting-up-our-lab/installation-guideline-of-linux.md)
 
 ## Os Fundamentals
 
