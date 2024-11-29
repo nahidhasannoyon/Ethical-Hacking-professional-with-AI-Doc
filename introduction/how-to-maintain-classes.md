@@ -1,8 +1,6 @@
 # How to maintain Classes
 
-## Resources
-
-What to Do!! What Not to Do !!
+## What to Do!! What Not to Do !!
 
 * Be Disciplined
 * Make Routine
