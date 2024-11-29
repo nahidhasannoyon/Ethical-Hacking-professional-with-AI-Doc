@@ -38,5 +38,3 @@ THM: https://tryhackme.com/p/AnonBBD
 * Active Directory Exploitation with Practical
 * Web Application Exploitation with Practical
 * Wireless Network Exploitation with Practical
-*
-
