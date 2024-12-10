@@ -1,4 +1,4 @@
-# Scripting with Bash
+# 🚧 Scripting with Bash
 
 ## Only ping once
 

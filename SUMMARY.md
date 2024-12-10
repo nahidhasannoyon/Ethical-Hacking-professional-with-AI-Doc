@@ -20,10 +20,24 @@
 * [Users and Privileges](os-fundamentals/users-and-privileges.md)
 * [Common Network Commands](os-fundamentals/common-network-commands.md)
 * [View, Create and Edit Files](os-fundamentals/view-create-and-edit-files.md)
-* [Installing and Updating Tools](os-fundamentals/installing-and-updating-tools.md)
-* [Scripting with Bash](os-fundamentals/scripting-with-bash.md)
+* [🚧 Installing and Updating Tools](os-fundamentals/installing-and-updating-tools.md)
+* [🚧 Scripting with Bash](os-fundamentals/scripting-with-bash.md)
 
 ## Test-01
 
 * [Questions](test-01/questions.md)
 * [Question with Answers](test-01/question-with-answers.md)
+
+## Footprinting
+
+* [Passive Recon (Reconnaissance Overview)](footprinting/passive-recon-reconnaissance-overview.md)
+* [Identifying our Target](footprinting/identifying-our-target.md)
+* [Gathering Breached Credentials with BreachParse](footprinting/gathering-breached-credentials-with-breachparse.md)
+* [Hunting Breached Credentials with DeHashed](footprinting/hunting-breached-credentials-with-dehashed.md)
+* [Hunting Subdomains Part 1](footprinting/hunting-subdomains-part-1.md)
+* [Hunting Subdomains Part 2](footprinting/hunting-subdomains-part-2.md)
+* [Identifying Website Technologies](footprinting/identifying-website-technologies.md)
+* [Information Gathering with Burp Suite](footprinting/information-gathering-with-burp-suite.md)
+* [Google Fu](footprinting/google-fu.md)
+* [Utilizing Social Media](footprinting/utilizing-social-media.md)
+* [OSINT Fundamentals](footprinting/osint-fundamentals.md)
