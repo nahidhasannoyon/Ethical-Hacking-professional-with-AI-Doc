@@ -42,7 +42,7 @@ _nmap -oN FILE\_NAME IP\_ADDRESS_
 
 {% embed url="https://nmap.org/book/man-port-scanning-techniques.html" %}
 
-#### **Mastering Nmap: Essential Commands for Network Scanning and Recon for Hacking**
+## **Mastering Nmap: Essential Commands for Network Scanning and Recon for Hacking**
 
 1. **Scan a Single IP**\
    `nmap 192.168.1.1`
