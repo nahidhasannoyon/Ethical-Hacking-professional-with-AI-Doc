@@ -41,3 +41,12 @@
 * [Google Fu](footprinting/google-fu.md)
 * [Utilizing Social Media](footprinting/utilizing-social-media.md)
 * [OSINT Fundamentals](footprinting/osint-fundamentals.md)
+
+## Test-02
+
+* [Questions](test-02/questions.md)
+* [Question with Answer](test-02/question-with-answer.md)
+
+## Scanning & Enumeration
+
+* [Scanning with Nmap](scanning-and-enumeration/scanning-with-nmap.md)
