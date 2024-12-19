@@ -1,5 +1,43 @@
 # Scanning with Nmap
 
+what is nmap
+
+nmap works with both ip and domain&#x20;
+
+how to get ip address of a server from domain name - nslookup.com
+
+
+
+{% embed url="https://sourceforge.net/projects/metasploitable/" %}
+
+Metasploitable is an intentionally vulnerable Linux virtual machine. This VM can be used to conduct security training, test security tools, and practice common penetration testing techniques.
+
+
+
+use _ip address_ in metasploitable to get ip address list&#x20;
+
+use _netdiscover -r ip\_address_ to know more info&#x20;
+
+## Some commands
+
+_nmap IP\_ADDRESS --traceroute_
+
+_nmap IP\_ADDRESS -P_
+
+_nmap IP\_ADDRESS -F_
+
+_nmap IP\_ADDRESS -p-_
+
+_nmap IP\_ADDRESS -F -sV_
+
+_nmap IP\_ADDRESS -A_
+
+_<mark style="color:orange;">nmap --script vuln IP\_ADDRESS</mark>_ <mark style="color:orange;background-color:red;">Important</mark>
+
+_nmap -oN FILE\_NAME IP\_ADDRESS_
+
+
+
 ## Resources ( Which were Discussed in the Class )
 
 {% embed url="https://nmap.org/book/man-port-scanning-techniques.html" %}
