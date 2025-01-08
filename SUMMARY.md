@@ -52,3 +52,4 @@
 * [Scanning with Nmap](scanning-and-enumeration/scanning-with-nmap.md)
 * [Enumerating HTTP and HTTPS Part 1](scanning-and-enumeration/enumerating-http-and-https-part-1.md)
 * [Enumerating HTTP and HTTPS Part 2](scanning-and-enumeration/enumerating-http-and-https-part-2.md)
+* [Enumerating SMB](scanning-and-enumeration/enumerating-smb.md)
