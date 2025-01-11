@@ -26,7 +26,7 @@
 ## Test-01
 
 * [Questions](test-01/questions.md)
-* [Question with Answers](test-01/question-with-answers.md)
+* [Questions with Answer](test-01/questions-with-answer.md)
 
 ## Footprinting
 
@@ -45,7 +45,7 @@
 ## Test-02
 
 * [Questions](test-02/questions.md)
-* [Question with Answer](test-02/question-with-answer.md)
+* [Questions with Answer](test-02/questions-with-answer.md)
 
 ## Scanning & Enumeration
 
@@ -53,3 +53,8 @@
 * [Enumerating HTTP and HTTPS Part 1](scanning-and-enumeration/enumerating-http-and-https-part-1.md)
 * [Enumerating HTTP and HTTPS Part 2](scanning-and-enumeration/enumerating-http-and-https-part-2.md)
 * [Enumerating SMB](scanning-and-enumeration/enumerating-smb.md)
+
+## TEST-03
+
+* [Questions](test-03/questions.md)
+* [Questions with Answer](test-03/questions-with-answer.md)
