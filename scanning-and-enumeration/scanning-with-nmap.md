@@ -1,40 +1,115 @@
 # Scanning with Nmap
 
-what is nmap
+**Scanning with Nmap**
 
-nmap works with both ip and domain&#x20;
+#### What is Nmap?
 
-how to get ip address of a server from domain name - nslookup.com
+Nmap (Network Mapper) is a powerful open-source tool for network scanning and reconnaissance. It is used to discover hosts, services, open ports, and vulnerabilities in a network. Nmap works with both IP addresses and domain names, making it versatile for various scenarios.
+
+#### How to Get an IP Address from a Domain Name
+
+Use `nslookup` to find the IP address of a server from its domain name:
+
+```bash
+nslookup domain_name
+```
+
+Replace `domain_name` with the target domain (e.g., `example.com`).
+
+#### Discover IP Addresses in a Network
+
+* Use `metasploitable` to find IP addresses in a test environment.
+*   Run `netdiscover` to scan a range of IP addresses:
+
+    ```bash
+    netdiscover -r ip_address_range
+    ```
+
+    Replace `ip_address_range` with the desired subnet (e.g., `192.168.1.0/24`).
+
+#### Nmap Commands and Their Purpose
+
+**1. Perform a Traceroute**
+
+**Purpose:** Trace the path packets take to reach the target.
+
+```bash
+nmap IP_ADDRESS --traceroute
+```
+
+**2. Perform a Ping Scan**
+
+**Purpose:** Check if the target is online and reachable.
+
+```bash
+nmap IP_ADDRESS -P
+```
+
+**3. Fast Scan**
+
+**Purpose:** Quickly scan the most common 100 ports.
+
+```bash
+nmap IP_ADDRESS -F
+```
+
+**4. Scan All Ports**
+
+**Purpose:** Identify services running on all 65,535 ports.
+
+```bash
+nmap IP_ADDRESS -p-
+```
+
+**5. Service Version Detection**
+
+**Purpose:** Detect service versions on open ports.
+
+```bash
+nmap IP_ADDRESS -F -sV
+```
+
+**6. Aggressive Scan**
+
+**Purpose:** Perform a detailed scan, including OS detection, version detection, script scanning, and traceroute.
+
+```bash
+nmap IP_ADDRESS -A
+```
+
+**7. Vulnerability Scan**
+
+**Purpose:** Check the target for known vulnerabilities using Nmap scripts.
+
+```bash
+nmap --script vuln IP_ADDRESS
+```
+
+**8. Save Scan Results to a File**
+
+**Purpose:** Export scan results to a file for later analysis.
+
+```bash
+nmap -oN FILE_NAME IP_ADDRESS
+```
+
+Replace `FILE_NAME` with the desired output filename.
+
+#### Summary
+
+Nmap is an essential tool for network analysis, enabling detailed scanning of hosts and networks. By combining commands such as traceroute, version detection, and vulnerability scripts, users can uncover valuable insights for security assessments and troubleshooting.
 
 
+
+## Test Scanning on vulnerable mechine.&#x20;
 
 {% embed url="https://sourceforge.net/projects/metasploitable/" %}
 
 Metasploitable is an intentionally vulnerable Linux virtual machine. This VM can be used to conduct security training, test security tools, and practice common penetration testing techniques.
 
-
-
 use _ip address_ in metasploitable to get ip address list&#x20;
 
 use _netdiscover -r ip\_address_ to know more info&#x20;
-
-## Some commands
-
-_nmap IP\_ADDRESS --traceroute_
-
-_nmap IP\_ADDRESS -P_
-
-_nmap IP\_ADDRESS -F_
-
-_nmap IP\_ADDRESS -p-_
-
-_nmap IP\_ADDRESS -F -sV_
-
-_nmap IP\_ADDRESS -A_
-
-_<mark style="color:orange;">nmap --script vuln IP\_ADDRESS</mark>_ <mark style="color:orange;background-color:red;">Important</mark>
-
-_nmap -oN FILE\_NAME IP\_ADDRESS_
 
 
 
@@ -93,3 +168,6 @@ _nmap -oN FILE\_NAME IP\_ADDRESS_
     `nmap -sn 192.168.1.0/24`
     * Performs a ping scan to list live hosts without scanning ports.
 
+## Scanning Network Example
+
+{% embed url="https://medium.com/@zisansakibhaque/network-scanning-101-c47c655f2d98" %}

@@ -1,27 +1,103 @@
 # Enumerating SMB
 
-what is smb --> server mail block.&#x20;
+What is SMB?
 
-what can we find form it
+* **SMB (Server Message Block):** A protocol used for sharing files, printers, and other network resources.
 
-Steps&#x20;
+#### What Can We Discover Using SMB?
 
-1. first open metasploitable and do need configuration as vulnerable machine
-2. write _msfconsole_ in terminal or search in apps and open metasploit&#x20;
-3. run command "search smb" in opened console
-4. look out for  "auxiliary/scanner/smb/smb\_ms17\_010" and it's number infront of it. (might be 42)
-5. write "use 42" in console then might write "info" to see what can it do.&#x20;
-6. check if the target have vulnerability or not
-   1. Enter "set RHOSTS IP\_ADDRESS" then "run" if it have vulnerability then it will show.
+* Shared files and directories.
+* Usernames and groups.
+* Misconfigurations and vulnerabilities.
 
-What is smbclient and what does it can do?&#x20;
+#### Steps for Enumerating SMB
 
-write "smbclient --help" to check info
+**Setting Up the Vulnerable Machine**
 
-Steps to check list of clients&#x20;
+1. Open **Metasploitable** and configure it as a vulnerable machine.
+2.  Open a terminal or application menu and launch **Metasploit** by typing:
 
-1. write "smbclient -L \\\\\\\IP\_ADDRESS\\\\" to check what are connected
-   1. why is \ used in the command
-2. write "smbclient \\\\\\\IP\_ADDRESS\\\ SHARENAME" to connect to that SHARENAME client.
-3. check if without password (just by pressing enter) can access the client.
+    ```bash
+    msfconsole
+    ```
+
+**Searching for SMB Modules**
+
+1.  In the Metasploit console, search for SMB-related modules:
+
+    ```bash
+    search smb
+    ```
+2. Look for the module `auxiliary/scanner/smb/smb_ms17_010` in the results.
+3. Note the module number (e.g., `42`).
+
+**Using the Module**
+
+1.  Use the module by entering its number:
+
+    ```bash
+    use 42
+    ```
+2.  View detailed information about the module:
+
+    ```bash
+    info
+    ```
+3.  Set the target's IP address to check for vulnerabilities:
+
+    ```bash
+    set RHOSTS IP_ADDRESS
+    ```
+4.  Run the module:
+
+    ```bash
+    run
+    ```
+
+    * If the target is vulnerable, it will display relevant information.
+
+#### Understanding smbclient
+
+* **smbclient:** A command-line tool used to interact with SMB shares.
+* **Capabilities:**
+  * Enumerate SMB shares.
+  * Access shared resources.
+  * Upload and download files.
+
+**Checking smbclient Options**
+
+1.  To view available options and usage:
+
+    ```bash
+    smbclient --help
+    ```
+
+**Enumerating SMB Shares**
+
+1.  List available shares on a target:
+
+    ```bash
+    smbclient -L \\IP_ADDRESS\
+    ```
+
+    * Replace `IP_ADDRESS` with the target’s IP.
+    * The backslashes `\` are required to escape the SMB path.
+2.  Connect to a specific share:
+
+    ```bash
+    smbclient \\IP_ADDRESS\SHARENAME
+    ```
+
+    * Replace `SHARENAME` with the name of the share.
+
+**Checking Access**
+
+1. When prompted for a password, try pressing `Enter` to check for access without credentials.
+   * If successful, this indicates a misconfigured or unsecured share.
+
+#### Summary
+
+* SMB allows for file and resource sharing, but misconfigurations can expose sensitive data.
+* Tools like **Metasploit** and **smbclient** help identify vulnerabilities and enumerate shares effectively.
+* Properly securing SMB shares is essential to prevent unauthorized access and potential exploitation.
 
