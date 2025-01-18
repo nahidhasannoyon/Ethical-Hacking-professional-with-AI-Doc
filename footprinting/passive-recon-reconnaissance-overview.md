@@ -1,10 +1,26 @@
 # Passive Recon (Reconnaissance Overview)
 
-The five stages of ethical hacking
+The five stages of ethical hacking are:
 
-what is reconnaissance&#x20;
+1. **Reconnaissance:** This is the initial stage where the ethical hacker gathers information about the target system or network. This information can be used to plan the attack and identify potential vulnerabilities.
+2. **Scanning:** In this stage, the ethical hacker uses automated tools to scan the target system or network for vulnerabilities. This can include checking for open ports, identifying services running on the system, and looking for known vulnerabilities.
+3. **Gaining Access:** If vulnerabilities are found, the ethical hacker will attempt to exploit them to gain access to the target system or network. This can be done through a variety of methods, such as exploiting software bugs, using social engineering techniques, or brute-forcing passwords.
+4. **Maintaining Access:** Once the ethical hacker has gained access to the target system or network, they may attempt to maintain access. This can be done by installing backdoors or other malware.
+5. **Covering Tracks:** In the final stage, the ethical hacker will attempt to cover their tracks. This can be done by deleting logs, modifying system files, or using other techniques to make it difficult to detect their presence.
 
-What kind of info gets from recon
+### What kind of info gets from recon?
+
+During the reconnaissance phase of ethical hacking, a wide range of information can be gathered. Here are some key types:
+
+* **Target Information:**
+  * **Basic Information:** Company name, industry, location, website, social media presence, etc.
+  * **Employees:** Names, titles, contact information, social media profiles, etc.
+  * **Technology Stack:** Operating systems, web servers, databases, programming languages, etc.
+  * **Network Infrastructure:** IP addresses, domain names, subdomains, etc.
+* **Vulnerability Information:**
+  * **Publicly Available Information:** Known vulnerabilities in software and hardware used by the target.
+  * **Misconfigurations:** Weak passwords, open ports, outdated software, etc.
+  * **Social Engineering Opportunities:** Identifying employees who may be susceptible to social engineering attacks.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
