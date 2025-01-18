@@ -22,6 +22,7 @@
 * [View, Create and Edit Files](os-fundamentals/view-create-and-edit-files.md)
 * [Installing and Updating Tools](os-fundamentals/installing-and-updating-tools.md)
 * [Scripting with Bash](os-fundamentals/scripting-with-bash.md)
+* [HW - 02](os-fundamentals/hw-02.md)
 
 ## Test-01
 
