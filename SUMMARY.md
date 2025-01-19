@@ -61,3 +61,8 @@
 
 * [Questions](test-03/questions.md)
 * [Questions with Answer](test-03/questions-with-answer.md)
+
+## Vulnerability Scanning with Nessus
+
+* [Scanning with Nessus Part 1](vulnerability-scanning-with-nessus/scanning-with-nessus-part-1.md)
+* [Scanning with Nessus Part 2](vulnerability-scanning-with-nessus/scanning-with-nessus-part-2.md)
