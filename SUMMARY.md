@@ -54,6 +54,8 @@
 * [Enumerating HTTP and HTTPS Part 1](scanning-and-enumeration/enumerating-http-and-https-part-1.md)
 * [Enumerating HTTP and HTTPS Part 2](scanning-and-enumeration/enumerating-http-and-https-part-2.md)
 * [Enumerating SMB](scanning-and-enumeration/enumerating-smb.md)
+* [Enumerating SSH](scanning-and-enumeration/enumerating-ssh.md)
+* [Researching Potential Vulnerabilities](scanning-and-enumeration/researching-potential-vulnerabilities.md)
 
 ## TEST-03
 
