@@ -72,5 +72,6 @@
 * [Reverse Shells vs Bind Shells](exploitation-basics/reverse-shells-vs-bind-shells.md)
 * [Staged vs Non-Staged Payloads](exploitation-basics/staged-vs-non-staged-payloads.md)
 * [Gaining Root with Metasploit](exploitation-basics/gaining-root-with-metasploit.md)
-* [Manual Exploitation](exploitation-basics/manual-exploitation.md)
+* [🚧 Manual Exploitation](exploitation-basics/manual-exploitation.md)
 * [Brute Force Attacks](exploitation-basics/brute-force-attacks.md)
+* [Credential Stuffing and Password Spraying](exploitation-basics/credential-stuffing-and-password-spraying.md)
