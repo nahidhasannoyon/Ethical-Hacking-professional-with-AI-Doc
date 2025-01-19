@@ -66,3 +66,11 @@
 
 * [Scanning with Nessus Part 1](vulnerability-scanning-with-nessus/scanning-with-nessus-part-1.md)
 * [Scanning with Nessus Part 2](vulnerability-scanning-with-nessus/scanning-with-nessus-part-2.md)
+
+## Exploitation Basics
+
+* [Reverse Shells vs Bind Shells](exploitation-basics/reverse-shells-vs-bind-shells.md)
+* [Staged vs Non-Staged Payloads](exploitation-basics/staged-vs-non-staged-payloads.md)
+* [Gaining Root with Metasploit](exploitation-basics/gaining-root-with-metasploit.md)
+* [Manual Exploitation](exploitation-basics/manual-exploitation.md)
+* [Brute Force Attacks](exploitation-basics/brute-force-attacks.md)
