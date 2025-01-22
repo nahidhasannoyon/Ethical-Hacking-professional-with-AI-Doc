@@ -75,3 +75,10 @@
 * [Manual Exploitation](exploitation-basics/manual-exploitation.md)
 * [Brute Force Attacks](exploitation-basics/brute-force-attacks.md)
 * [Credential Stuffing and Password Spraying](exploitation-basics/credential-stuffing-and-password-spraying.md)
+
+## Ethical Hacking with AI
+
+* [Web Application Testing Methodology](ethical-hacking-with-ai/web-application-testing-methodology.md)
+* [Bug Hunting with Manual Testing](ethical-hacking-with-ai/bug-hunting-with-manual-testing.md)
+* [Do's and Don'ts in Bug Report Writing](ethical-hacking-with-ai/dos-and-donts-in-bug-report-writing.md)
+* [Ethical Hacking with AI - Part 01](ethical-hacking-with-ai/ethical-hacking-with-ai-part-01.md)
