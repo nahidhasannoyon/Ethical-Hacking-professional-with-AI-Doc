@@ -82,3 +82,7 @@
 * [Bug Hunting with Manual Testing](ethical-hacking-with-ai/bug-hunting-with-manual-testing.md)
 * [Do's and Don'ts in Bug Report Writing](ethical-hacking-with-ai/dos-and-donts-in-bug-report-writing.md)
 * [Ethical Hacking with AI - Part 01](ethical-hacking-with-ai/ethical-hacking-with-ai-part-01.md)
+* [Ethical Hacking with AI - Part 02](ethical-hacking-with-ai/ethical-hacking-with-ai-part-02.md)
+* [Ethical Hacking with AI - Part 03](ethical-hacking-with-ai/ethical-hacking-with-ai-part-03.md)
+* [Ethical Hacking with AI - Part 04](ethical-hacking-with-ai/ethical-hacking-with-ai-part-04.md)
+* [Ethical Hacking with AI - Part 05](ethical-hacking-with-ai/ethical-hacking-with-ai-part-05.md)
