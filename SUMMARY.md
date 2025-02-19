@@ -86,3 +86,4 @@
 * [Ethical Hacking with AI - Part 03](ethical-hacking-with-ai/ethical-hacking-with-ai-part-03.md)
 * [Ethical Hacking with AI - Part 04](ethical-hacking-with-ai/ethical-hacking-with-ai-part-04.md)
 * [Ethical Hacking with AI - Part 05](ethical-hacking-with-ai/ethical-hacking-with-ai-part-05.md)
+* [🚧 Exploit Development with  AI](ethical-hacking-with-ai/exploit-development-with-ai.md)
