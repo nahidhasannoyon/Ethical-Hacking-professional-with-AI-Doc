@@ -93,7 +93,14 @@
 * [Active Directory Overview (AD Overview)](active-directory-overview/active-directory-overview-ad-overview.md)
 * [Physical Active Directory Components](active-directory-overview/physical-active-directory-components.md)
 * [Use of Active Directory](active-directory-overview/use-of-active-directory.md)
-
-***
-
 * [Logical Active Directory Components](logical-active-directory-components.md)
+
+## Active Directory Lab Build
+
+* [Lab Overview and Requirements](active-directory-lab-build/lab-overview-and-requirements.md)
+* [Downloading Necessary ISOs](active-directory-lab-build/downloading-necessary-isos.md)
+* [Setting Up the Domain Controllers](active-directory-lab-build/setting-up-the-domain-controllers.md)
+* [Setting Up the User Machines](active-directory-lab-build/setting-up-the-user-machines.md)
+* [Setting Up Users, Groups, and Policies](active-directory-lab-build/setting-up-users-groups-and-policies.md)
+* [Joining Our Machines to the Domain](active-directory-lab-build/joining-our-machines-to-the-domain.md)
+* [Lab Build - (Cloud Alternative)](active-directory-lab-build/lab-build-cloud-alternative.md)
