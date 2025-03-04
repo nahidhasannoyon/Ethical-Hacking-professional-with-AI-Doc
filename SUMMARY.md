@@ -125,3 +125,8 @@
 * [IPv6 Attack Defenses](attacking-active-directory-initial-attack-vectors/ipv6-attack-defenses.md)
 * [Passback Attacks](attacking-active-directory-initial-attack-vectors/passback-attacks.md)
 * [Other Attack Vectors and Strategies](attacking-active-directory-initial-attack-vectors/other-attack-vectors-and-strategies.md)
+
+## Test-05
+
+* [Questions](test-05/questions.md)
+* [Questions with Answer](test-05/questions-with-answer.md)
