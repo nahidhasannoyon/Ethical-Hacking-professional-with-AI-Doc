@@ -126,6 +126,15 @@
 * [Passback Attacks](attacking-active-directory-initial-attack-vectors/passback-attacks.md)
 * [Other Attack Vectors and Strategies](attacking-active-directory-initial-attack-vectors/other-attack-vectors-and-strategies.md)
 
+## Attacking Active Directory: Post-Compromise Enumeration
+
+* [Introduction](attacking-active-directory-post-compromise-enumeration/introduction.md)
+* [Domain Enumeration with PowerView](attacking-active-directory-post-compromise-enumeration/domain-enumeration-with-powerview.md)
+* [Domain Enumeration with LDAPdomainDump](attacking-active-directory-post-compromise-enumeration/domain-enumeration-with-ldapdomaindump.md)
+* [Domain Enumeration with Bloodhound](attacking-active-directory-post-compromise-enumeration/domain-enumeration-with-bloodhound.md)
+* [Domain Enumeration with PlumHound](attacking-active-directory-post-compromise-enumeration/domain-enumeration-with-plumhound.md)
+* [Enumerating Domain Data with PingCastle](attacking-active-directory-post-compromise-enumeration/enumerating-domain-data-with-pingcastle.md)
+
 ## Test-05
 
 * [Questions](test-05/questions.md)
