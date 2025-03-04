@@ -139,3 +139,12 @@
 
 * [Questions](test-05/questions.md)
 * [Questions with Answer](test-05/questions-with-answer.md)
+
+## Attacking Active Directory: Post-Compromise Attacks
+
+* [Introduction](attacking-active-directory-post-compromise-attacks/introduction.md)
+* [Pass the Hash / Password Overview](attacking-active-directory-post-compromise-attacks/pass-the-hash-password-overview.md)
+* [Pass the Password Attacks](attacking-active-directory-post-compromise-attacks/pass-the-password-attacks.md)
+* [Dumping Hashes with secretsdump.py](attacking-active-directory-post-compromise-attacks/dumping-hashes-with-secretsdump.py.md)
+* [Pass Attack Mitigations](attacking-active-directory-post-compromise-attacks/pass-attack-mitigations.md)
+* [Kerberoasting Overview](attacking-active-directory-post-compromise-attacks/kerberoasting-overview.md)
