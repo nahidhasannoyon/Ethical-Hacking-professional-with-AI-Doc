@@ -148,3 +148,10 @@
 * [Dumping Hashes with secretsdump.py](attacking-active-directory-post-compromise-attacks/dumping-hashes-with-secretsdump.py.md)
 * [Pass Attack Mitigations](attacking-active-directory-post-compromise-attacks/pass-attack-mitigations.md)
 * [Kerberoasting Overview](attacking-active-directory-post-compromise-attacks/kerberoasting-overview.md)
+
+***
+
+* [Kerberoasting Walkthrough](kerberoasting-walkthrough.md)
+* [Kerberoasting Mitigation](kerberoasting-mitigation.md)
+* [Token Impersonation Overview](token-impersonation-overview.md)
+* [Token Impersonation with Incognito](token-impersonation-with-incognito.md)
