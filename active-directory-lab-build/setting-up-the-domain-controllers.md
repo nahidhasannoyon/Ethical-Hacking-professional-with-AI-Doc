@@ -1,40 +1,81 @@
 # Setting Up the Domain Controllers
 
-windows server 2019 setup steps:
+## **Windows Server 2019 Setup Guide**
 
-First in the virtualbox >> tools >> Tools >> network manager >> create and enable the vboxnet0.&#x20;
+### **1. Setup in VirtualBox:**
 
-now create new windows server 2019 with atleast 60 GB disk with the iso or VHD which is available.&#x20;
+#### ✅ **Step 1:** Configure Network in VirtualBox
 
-set the adapter 1 to Bridged Adapter.
+1. Open **VirtualBox**.
+2. Go to **Tools → Tools → Network Manager**.
+3. Create and enable **vboxnet0**.
 
-do the set up and set strong password.&#x20;
+***
 
-on lock screen press Crtl + Alt + delete&#x20;
+#### ✅ **Step 2:** Create a New Virtual Machine
 
+1. Create a new Virtual Machine for **Windows Server 2019**.
+2. Set the following specifications:
+   * **Minimum Disk:** 60 GB
+   * **ISO/VHD:** Use a valid Windows Server 2019 ISO or VHD.
+3. Set **Adapter 1** to **Bridged Adapter** for network connection.
 
+***
 
-First change the computer name to a more remmberable name.&#x20;
+#### ✅ **Step 3:** Complete Installation
 
+1. Proceed with the setup.
+2. Set a **strong password** for the administrator account.
+3. On the lock screen, press **Ctrl + Alt + Delete** to log in.
 
+***
 
-Domain Controller Setup steps:&#x20;
+#### ✅ **Step 4:** Rename Computer
 
-now open the server manager then click manage then add Roles and Features.&#x20;
+1. Open **Settings** → **System** → **About** → **Rename this PC**.
+2. Set a memorable name (e.g., **DC-Server**).
+3. Restart the server if prompted.
 
-Click next till Server Roles and in it click Active Directory Domain Service and add the feature and also do the same for Remote Access and Remote Desktop Service, DHCP Server, DNS Server.&#x20;
+***
 
-Add all features of Rol Services of both Remote Access and Remote Desktop Services.&#x20;
+### **2. Domain Controller Setup:**
 
-lastly click install and then restart the server.&#x20;
+#### ✅ **Step 5:** Add Roles and Features
 
+1. Open **Server Manager**.
+2. Click **Manage** → **Add Roles and Features**.
+3. Click **Next** until you reach **Server Roles**.
+4. Select the following roles:
+   * ✅ **Active Directory Domain Services** → Add Features
+   * ✅ **Remote Access** → Add all Role Services
+   * ✅ **Remote Desktop Services** → Add all Role Services
+   * ✅ **DHCP Server**
+   * ✅ **DNS Server**
+5. Click **Install** and wait for the process to complete.
+6. Restart the server after installation.
 
+***
 
-Now in Server Manager click on the Flag icon which may have some warnings too.&#x20;
+#### ✅ **Step 6:** Promote to Domain Controller
 
-in one the the warning there will be "Promote this server to a domain controller" click on it and then choose Add a new forest and give any domain in Root domain name (eg EHP.com) and then set password and then click install.
+1. In **Server Manager**, click on the **Flag Icon** (may show warnings).
+2. Find the warning **"Promote this server to a domain controller."**
+3. Click on it and select **"Add a new forest."**
+4. Enter the **Root Domain Name** (e.g., `brotherdev.com`).
+5. Set a **password** for the Directory Services Restore Mode (DSRM).
+6. Click **Install**.
+7. The system may prompt for **sign out** — confirm and sign out.
 
-then the pc might prompt for sign out. do it.&#x20;
+***
 
-in the same flag icon check for "Complete DHCP setup" and commit the default things.&#x20;
+#### ✅ **Step 7:** Complete DHCP Setup
 
+1. In **Server Manager**, go to the **Flag Icon** (if warnings remain).
+2. Find **"Complete DHCP setup."**
+3. Accept the default settings and **commit**.
+
+***
+
+### **✅ Setup Complete!**
+
+🎯 Your Windows Server 2019 is now set up as a **Domain Controller** with essential services like **DHCP** and **DNS**!

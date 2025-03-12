@@ -1,25 +1,93 @@
 # Setting Up Users, Groups, and Policies
 
-Log in to windows Server 2019 and open Server Manager
+#### **1. Active Directory Configuration**
 
-Click Tools and choose Active Directory Users and Computers&#x20;
+#### ✅ **Step 1:** Open Active Directory Users and Computers
 
-now right click on domain name (eg EHP.com) and create new Organizational Unit and set name Groups. now select all the groups in the Users folder and move them to Groups folder.&#x20;
+1. **Log in** to **Windows Server 2019**.
+2. Open **Server Manager** → Click **Tools** → Select **Active Directory Users and Computers**.
 
-Now add new User in the Users folder with strong password and all work is done here.&#x20;
+***
 
+#### ✅ **Step 2:** Create a New Organizational Unit (OU)
 
+1. Right-click on the **domain name** (e.g., `brotherdev.com`).
+2. Select **New** → **Organizational Unit**.
+3. Set the **OU name** as **Groups** → Click **OK**.
 
-again open Server Manager and go to File and Storage Services in the sidebar. then Shares and click TASKS and choose New Share and give Share Name (eg. employee) with default setting click Create.&#x20;
+***
 
+#### ✅ **Step 3:** Move Existing Groups to New OU
 
+1. Expand the **Users** folder.
+2. Select all the existing groups.
+3. Right-click → **Move** → Choose **Groups** → Click **OK**.
 
-Now open Group Policy Management with Run as Administrator form search bar.&#x20;
+***
 
-then click Domains and right click on domain name (eg. EHP.com) and choose Create a GPO in this domain and Link  in here... Named "Disable Windows Defender".&#x20;
+#### ✅ **Step 4:** Add a New User
 
-set yes to Enforced for Disable windows Defender. Now right click and chose edit.&#x20;
+1. Right-click on the **Users** folder → **New** → **User**.
+2. Fill in the details:
+   * **First name**, **Last name**, **User logon name**.
+3. Set a **strong password** and select:
+   * ✅ **User must change password at next logon** → Uncheck.
+   * ✅ **Password never expires** → Check.
+4. Click **Next** → **Finish**.
 
-then go to "computer configuration" >> Administrative Templates Policy definitions... >>> Windows Component >> Windows Defender Antivirus.
+***
 
-Click on it and enable the Turn off Windows Defender Antivirus and also in the Real-time protection the Turn off real-time protection.&#x20;
+### **2. Create a File Share**
+
+#### ✅ **Step 1:** Open File and Storage Services
+
+1. Open **Server Manager** → **File and Storage Services** (left sidebar).
+2. Go to **Shares** → **TASKS** → **New Share**.
+
+***
+
+#### ✅ **Step 2:** Configure Share Settings
+
+1. Choose **SMB Share - Quick**.
+2. Set **Share Name** → e.g., `Employee`.
+3. Leave default settings → Click **Next**.
+4. Click **Create** → **Close** when finished.
+
+***
+
+### **3. Create and Apply Group Policy**
+
+#### ✅ **Step 1:** Open Group Policy Management
+
+1. Open **Search** → Type `Group Policy Management` → Right-click → **Run as Administrator**.
+
+***
+
+#### ✅ **Step 2:** Create a New GPO
+
+1. Expand **Domains** → Right-click on your **Domain Name** (e.g., `brotherdev.com`).
+2. Select **Create a GPO in this domain, and Link it here…**
+3. Name it **"Disable Windows Defender"** → Click **OK**.
+
+***
+
+#### ✅ **Step 3:** Edit the GPO
+
+1. Right-click on **"Disable Windows Defender"** → Select **Edit**.
+2. Go to:
+   * **Computer Configuration** → **Administrative Templates** → **Windows Components** → **Windows Defender Antivirus**.
+3. Double-click **"Turn off Windows Defender Antivirus"** → Set to **Enabled** → **Apply**.
+4. Go to **Real-time Protection**:
+   * Double-click **"Turn off real-time protection"** → Set to **Enabled** → **Apply**.
+
+***
+
+#### ✅ **Step 4:** Enforce the GPO
+
+1. Right-click on **"Disable Windows Defender"** → Select **Enforced** → **Yes**.
+
+***
+
+### ✅ **Setup Complete!**
+
+🎯 Your Active Directory setup, file sharing, and Group Policy configuration are now complete!&#x20;
