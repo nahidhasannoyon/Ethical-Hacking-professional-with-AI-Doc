@@ -42,23 +42,35 @@
 
 #### ✅ **Step 5:** Add Roles and Features
 
+
+
 1. Open **Server Manager**.
 2. Click **Manage** → **Add Roles and Features**.
 3. Click **Next** until you reach **Server Roles**.
-4. Select the following roles:
-   * ✅ **Active Directory Domain Services** → Add Features
-   * ✅ **Remote Access** → Add all Role Services
-   * ✅ **Remote Desktop Services** → Add all Role Services
-   * ✅ **DHCP Server**
-   * ✅ **DNS Server**
-5. Click **Install** and wait for the process to complete.
-6. Restart the server after installation.
+4.  Select the following roles:
+
+    * ✅ **Active Directory Domain Services**
+    * ✅ **Remote Access**
+    * ✅ **Remote Desktop Services**
+    * ✅ **DHCP Server**
+    * ✅ **DNS Server**
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-05 144808.png" alt=""><figcaption></figcaption></figure>
+5.  Then Select all the **Role Services** in **Remote Desktop Services** and **Remote Access.**
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-05 145119 (1).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-05 145156.png" alt=""><figcaption></figcaption></figure>
+6. Click **Install** and wait for the process to complete.
+7. Restart the server after installation.
 
 ***
 
 #### ✅ **Step 6:** Promote to Domain Controller
 
-1. In **Server Manager**, click on the **Flag Icon** (may show warnings).
+1.  In **Server Manager**, click on the **Flag Icon** (may show warnings).
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-05 150824.png" alt=""><figcaption></figcaption></figure>
 2. Find the warning **"Promote this server to a domain controller."**
 3. Click on it and select **"Add a new forest."**
 4. Enter the **Root Domain Name** (e.g., `brotherdev.com`).
@@ -70,9 +82,13 @@
 
 #### ✅ **Step 7:** Complete DHCP Setup
 
-1. In **Server Manager**, go to the **Flag Icon** (if warnings remain).
+1.  In **Server Manager**, go to the **Flag Icon** (if warnings remain).
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-05 152550 (1).png" alt=""><figcaption></figcaption></figure>
 2. Find **"Complete DHCP setup."**
-3. Accept the default settings and **commit**.
+3.  Accept the default settings and **commit**.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-05 152621 (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

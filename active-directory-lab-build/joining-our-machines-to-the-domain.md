@@ -47,7 +47,9 @@ ipconfig
 6. Choose **"Use the following DNS server addresses:"**
    * **Preferred DNS server:** Enter the IP of the Windows Server 2019 (e.g., `192.168.1.10`).
    * **Alternate DNS server:** Leave blank or use `8.8.8.8`.
-7. Click **OK** → **Close**.
+7.  Click **OK** → **Close**.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-12 143524.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -60,7 +62,9 @@ ipconfig
 3. In the **System Properties** window → Click **"Change."**
 4. Select **"Domain"** → Enter the **Domain Name** (e.g., `brotherdev.com`).
 5. When prompted, enter the **Administrator username** and **password** of the server.
-6. Click **OK** → Restart the computer when prompted.
+6.  Click **OK** → Restart the computer when prompted.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-12 143833.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -70,7 +74,9 @@ ipconfig
 
 1. Open **Server Manager** → **Tools** → **Active Directory Users and Computers**.
 2. Expand your **Domain Name** (e.g., `brotherdev.com`).
-3. Select **Computers** → Check if the **Windows 10 PC name** appears in the list.
+3.  Select **Computers** → Check if the **Windows 10 PC name** appears in the list.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2025-03-12 144032.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
