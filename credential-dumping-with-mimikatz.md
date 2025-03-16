@@ -1,0 +1,2 @@
+# Credential Dumping with Mimikatz
+
