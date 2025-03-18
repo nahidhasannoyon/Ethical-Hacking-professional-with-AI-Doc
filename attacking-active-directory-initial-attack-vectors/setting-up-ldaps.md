@@ -1,8 +1,10 @@
 # Setting Up LDAPS
 
-what is LDAPS?&#x20;
+LDAP (Lightweight Directory Access Protocol) কী?\
+LDAP (Lightweight Directory Access Protocol) হলো একটি ওপেন প্রোটোকল যা ডিরেক্টরি সার্ভিসে তথ্য সংরক্ষণ, অনুসন্ধান ও পরিচালনা করতে ব্যবহৃত হয়। এটি মূলত নেটওয়ার্কের মধ্যে ইউজার অথেনটিকেশন ও ডিরেক্টরি ম্যানেজমেন্ট সহজতর করার জন্য ব্যবহৃত হয়।
 
-why it is needed?
+LDAP রিলে আক্রমণ কী?\
+LDAP অথেনটিকেশনকে NTLM Relay Attack এর মাধ্যমে এক্সপ্লয়েট করা যায়। যদি LDAP সার্ভার LDAP Signing চালু না করে, তবে আক্রমণকারী NTLM অথেনটিকেশন রিলে করে LDAP অথেনটিকেশন পাস করতে পারে এবং অ্যাক্সেস নিতে পারে।
 
 start windows server&#x20;
 
