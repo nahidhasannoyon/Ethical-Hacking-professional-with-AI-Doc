@@ -177,9 +177,9 @@
 * [Maintaining Access Overview](post-exploitation/maintaining-access-overview.md)
 * [Pivoting Lab Setup](post-exploitation/pivoting-lab-setup.md)
 * [Pivoting Walkthrough](post-exploitation/pivoting-walkthrough.md)
-* [❌ Cleaning Up](post-exploitation/cleaning-up.md)
-* [❌ Web Application Enumeration, Revision](post-exploitation/web-application-enumeration-revision.md)
-* [❌ Introduction](post-exploitation/introduction-1.md)
+* [Cleaning Up](post-exploitation/cleaning-up.md)
+* [Web Application Enumeration, Revision](post-exploitation/web-application-enumeration-revision.md)
+* [Introduction](post-exploitation/introduction-1.md)
 * [Installing Go](post-exploitation/installing-go.md)
 * [Finding Subdomains with Assetfinder](post-exploitation/finding-subdomains-with-assetfinder.md)
 * [Finding Subdomains with Amass](post-exploitation/finding-subdomains-with-amass.md)
@@ -190,7 +190,7 @@
 
 ## Testing the Top 10 Web Application Vulnerabilities
 
-* [❌ Introduction](testing-the-top-10-web-application-vulnerabilities/introduction.md)
+* [Introduction](testing-the-top-10-web-application-vulnerabilities/introduction.md)
 * [The OWASP Top 10 and OWASP Testing Checklist](testing-the-top-10-web-application-vulnerabilities/the-owasp-top-10-and-owasp-testing-checklist.md)
 * [Lab Setup](testing-the-top-10-web-application-vulnerabilities/lab-setup.md)
 * [SQL Injection - Introduction](testing-the-top-10-web-application-vulnerabilities/sql-injection-introduction.md)
