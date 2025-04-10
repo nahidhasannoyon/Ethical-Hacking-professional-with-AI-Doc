@@ -22,7 +22,7 @@ run both command and wait till the process is done. when it is done it will add 
 
 
 
-
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 
 

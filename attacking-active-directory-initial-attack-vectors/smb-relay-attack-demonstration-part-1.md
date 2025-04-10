@@ -20,7 +20,7 @@ mousepad /etc/responder/Responder.conf
 
 * Set `SMB` and `HTTP` to **Off**
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Save and close the file.
 5. Check if the changes are applied by running Responder:
@@ -121,6 +121,6 @@ sudo ntlmrelayx.py -tf target.txt -smb2support
 
 
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>

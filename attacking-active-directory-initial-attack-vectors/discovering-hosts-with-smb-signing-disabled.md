@@ -32,5 +32,5 @@ nmap -Pn --script=smb2-security-mode -p445 TARGET_IP
 ✅ **If SMB signing is disabled**, it will be shown in the output, indicating that the system is vulnerable to SMB relay attacks.\
 ✅ **If SMB signing is enabled**, the system is more secure against SMB relay attacks.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
