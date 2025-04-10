@@ -169,3 +169,21 @@
 * [Abusing ZeroLogon](additional-active-directory-attacks/abusing-zerologon.md)
 * [PrintNightmare (CVE-2021-1675) Walkthrough](additional-active-directory-attacks/printnightmare-cve-2021-1675-walkthrough.md)
 * [AD Case Study](additional-active-directory-attacks/ad-case-study.md)
+
+## Post Exploitation
+
+* [Introduction](post-exploitation/introduction.md)
+* [File Transfers Review](post-exploitation/file-transfers-review.md)
+* [Maintaining Access Overview](post-exploitation/maintaining-access-overview.md)
+* [Pivoting Lab Setup](post-exploitation/pivoting-lab-setup.md)
+* [Pivoting Walkthrough](post-exploitation/pivoting-walkthrough.md)
+* [❌ Cleaning Up](post-exploitation/cleaning-up.md)
+* [❌ Web Application Enumeration, Revision](post-exploitation/web-application-enumeration-revision.md)
+* [❌ Introduction](post-exploitation/introduction-1.md)
+* [Installing Go](post-exploitation/installing-go.md)
+* [Finding Subdomains with Assetfinder](post-exploitation/finding-subdomains-with-assetfinder.md)
+* [Finding Subdomains with Amass](post-exploitation/finding-subdomains-with-amass.md)
+* [Finding Alive Domains with Httprobe](post-exploitation/finding-alive-domains-with-httprobe.md)
+* [Screenshotting Websites with GoWitness](post-exploitation/screenshotting-websites-with-gowitness.md)
+* [Automating the Enumeration Process](post-exploitation/automating-the-enumeration-process.md)
+* [Additional Resources](post-exploitation/additional-resources.md)
