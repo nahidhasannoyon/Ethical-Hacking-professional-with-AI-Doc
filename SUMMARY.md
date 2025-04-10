@@ -163,3 +163,9 @@
 * [Post-Domain Compromise Attack](post-domain-compromise-attack.md)
 * [Golden Ticket Attacks Overview](golden-ticket-attacks-overview.md)
 * [Golden Ticket Attacks Walkthrough](golden-ticket-attacks-walkthrough.md)
+
+## Additional Active Directory Attacks
+
+* [Abusing ZeroLogon](additional-active-directory-attacks/abusing-zerologon.md)
+* [PrintNightmare (CVE-2021-1675) Walkthrough](additional-active-directory-attacks/printnightmare-cve-2021-1675-walkthrough.md)
+* [AD Case Study](additional-active-directory-attacks/ad-case-study.md)
