@@ -221,3 +221,14 @@
 
 * [Wireless Penetration Testing Overview](advance-wireless-penetration-testing/wireless-penetration-testing-overview.md)
 * [WPA PS2 Exploit Walkthrough](advance-wireless-penetration-testing/wpa-ps2-exploit-walkthrough.md)
+
+## Legal Documents and Report Writing
+
+* [Common Legal Documents](legal-documents-and-report-writing/common-legal-documents.md)
+* [Pentesting Checklist](legal-documents-and-report-writing/pentesting-checklist.md)
+* [Pentest Report Writing](legal-documents-and-report-writing/pentest-report-writing.md)
+* [Reviewing a Real Pentest Report](legal-documents-and-report-writing/reviewing-a-real-pentest-report.md)
+
+## Career Advice & Next Move!!
+
+* [Career Roadmap](career-advice-and-next-move/career-roadmap.md)
