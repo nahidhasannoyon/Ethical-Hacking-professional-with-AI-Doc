@@ -22,7 +22,7 @@ During the reconnaissance phase of ethical hacking, a wide range of information 
   * **Misconfigurations:** Weak passwords, open ports, outdated software, etc.
   * **Social Engineering Opportunities:** Identifying employees who may be susceptible to social engineering attacks.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Footprinting** (ফুটপ্রিন্টিং) এটি এথিকাল হ্যাকিং (ethical hacking) এর একটি গুরুত্বপূর্ণ ধাপ। এটি হল তথ্য সংগ্রহ বা রিকনাইসেন্স (reconnaissance)। এই প্রক্রিয়াটি একটি কার্যকর হ্যাকার কে একটি কোম্পানি, নেটওয়ার্ক, বা সিস্টেমের সম্পর্কিত তথ্য পেতে সাহায্য করে। এটি সাধারণত নিম্নলিখিত ধাপগুলো নিয়ে কাজ করে:
 
